@@ -33,6 +33,7 @@ import { LAYOUT_EN_COLEMAK_DH_ISO_WIDE } from "./layout/en_colemak_dh_iso_wide.t
 import { LAYOUT_EN_COLEMAK_DH_MATRIX } from "./layout/en_colemak_dh_matrix.ts";
 import { LAYOUT_EN_DVORAK } from "./layout/en_dvorak.ts";
 import { LAYOUT_EN_ENGRAM } from "./layout/en_engram.ts";
+import { LAYOUT_EN_GALLIUMV2_MATRIX } from "./layout/en_galliumv2_matrix.ts";
 import { LAYOUT_EN_HALMAK } from "./layout/en_halmak.ts";
 import { LAYOUT_EN_HANDS_DOWN_NEU } from "./layout/en_hands_down_neu.ts";
 import { LAYOUT_EN_NERPS } from "./layout/en_nerps.ts";
@@ -91,6 +92,7 @@ const layoutDict = new Map<Layout, CharacterDict>([
   [Layout.EN_COLEMAK_DH_ISO, LAYOUT_EN_COLEMAK_DH_ISO],
   [Layout.EN_COLEMAK_DH_ISO_WIDE, LAYOUT_EN_COLEMAK_DH_ISO_WIDE],
   [Layout.EN_COLEMAK_DH_MATRIX, LAYOUT_EN_COLEMAK_DH_MATRIX],
+  [Layout.EN_GALLIUMV2_MATRIX, LAYOUT_EN_GALLIUMV2_MATRIX],
   [Layout.EN_DVORAK, LAYOUT_EN_DVORAK],
   [Layout.EN_ENGRAM, LAYOUT_EN_ENGRAM],
   [Layout.EN_HALMAK, LAYOUT_EN_HALMAK],

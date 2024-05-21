@@ -114,6 +114,15 @@ export class Layout implements XEnumItem {
     /* emulate= */ true,
     /* geometries= */ new Enum(Geometry.MATRIX),
   );
+  static readonly EN_GALLIUMV2_MATRIX = new Layout(
+    "en-galliumv2-matrix",
+    0x96,
+    "Gallium V2",
+    "gallium",
+    Language.EN,
+    true,
+    new Enum(Geometry.MATRIX),
+  );
   static readonly EN_WORKMAN = new Layout(
     /* id= */ "en-workman",
     /* xid= */ 0x1a,
@@ -831,6 +840,7 @@ export class Layout implements XEnumItem {
     Layout.EN_COLEMAK_DH_ISO,
     Layout.EN_COLEMAK_DH_ISO_WIDE,
     Layout.EN_COLEMAK_DH_MATRIX,
+    Layout.EN_GALLIUMV2_MATRIX,
     Layout.EN_WORKMAN,
     Layout.EN_CANARY,
     Layout.EN_CANARY_MATRIX,
